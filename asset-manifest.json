@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nalapaakapureveg/static/css/main.89a479f0.css",
-    "main.js": "/Nalapaakapureveg/static/js/main.7ce9f190.js",
+    "main.js": "/Nalapaakapureveg/static/js/main.a2e52a7f.js",
     "static/js/453.4fe7614d.chunk.js": "/Nalapaakapureveg/static/js/453.4fe7614d.chunk.js",
     "static/media/spices-tomatoes-near-spaghetti-garlic.jpg": "/Nalapaakapureveg/static/media/spices-tomatoes-near-spaghetti-garlic.b769d68b2695108285e9.jpg",
     "static/media/Starters-menu.jpg": "/Nalapaakapureveg/static/media/Starters-menu.35b2f0185377ae2f4bcd.jpg",
@@ -15,11 +15,11 @@
     "static/media/pngtree-black-vegetable-line-background-image_508366.jpg": "/Nalapaakapureveg/static/media/pngtree-black-vegetable-line-background-image_508366.f565653c00cc4b7ac95e.jpg",
     "index.html": "/Nalapaakapureveg/index.html",
     "main.89a479f0.css.map": "/Nalapaakapureveg/static/css/main.89a479f0.css.map",
-    "main.7ce9f190.js.map": "/Nalapaakapureveg/static/js/main.7ce9f190.js.map",
+    "main.a2e52a7f.js.map": "/Nalapaakapureveg/static/js/main.a2e52a7f.js.map",
     "453.4fe7614d.chunk.js.map": "/Nalapaakapureveg/static/js/453.4fe7614d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89a479f0.css",
-    "static/js/main.7ce9f190.js"
+    "static/js/main.a2e52a7f.js"
   ]
 }
