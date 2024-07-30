@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/nikki3383/NALAPAAKA",
+  "homepage": "https://nikki3383.github.io/Nalapaakapureveg",
   "name": "nalapaaka-pure-veg",
   "version": "0.1.0",
   "private": true,
@@ -18,9 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gn-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
