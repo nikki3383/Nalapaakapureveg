@@ -29,7 +29,7 @@ const Home = () => {
       <p style={({ color: "white" }, { fontSize: "10px" })}>
         Note:( photos generated are directly from googlemaps)
       </p>
-      <h1>PLEASE VISIT US AT</h1>
+      <h1 style={{ color: "yellow" }}>PLEASE VISIT US AT</h1>
       <div className="map-container">
         <GoogleMap placeId={placeId} />
       </div>

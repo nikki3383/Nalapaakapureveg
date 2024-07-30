@@ -60,19 +60,21 @@ footer {
   width: 100%;
   flex-shrink: 0; /* Ensure footer doesn't shrink */
   /* position: relative; */
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 /* Specific styles for Home component and headings */
 .home-header1 {
   color: yellow;
   font-size: 50px;
+  animation: fadeIn 1s ease-out;
 }
 
 .home-header2 {
   color: green;
   font-size: 50px;
   margin-top: -30px;
+  animation: fadeIn 1s ease-out;
 }
 
 /* General styles for div elements */
@@ -92,6 +94,7 @@ div {
   padding: 20px;
   background-image: url(../../public/images/dark-background-abstract-background-network-3d-background-3840x2160-8324.png);
   background-size: 100%;
+  animation: fadeIn 1s ease-out;
 }
 /* styles.css */
 
@@ -108,6 +111,7 @@ div {
   overflow-x: hidden; /* Enable horizontal scrolling */
   /* white-space: nowrap;  */
   font-family: Georgia, serif;
+  animation: fadeIn 1s ease-out;
 }
 @keyframes scroll {
   0% {
@@ -204,7 +208,7 @@ div {
 }
 /* map.css */
 .map-container {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: 20px 0;
   align-items: center;
@@ -220,7 +224,9 @@ div {
   position: relative;
   width: 100%;
   height: 400px; /* Set a fixed height to ensure the container is large enough for the arrows */
+
   margin-bottom: -20px;
+  animation: fadeIn 1s ease-out;
 }
 
 .photo-viewer {
@@ -254,4 +260,117 @@ div {
   max-width: 100%;
   max-height: 50%;
   margin: 0 40px; /* Add margin to ensure arrows are not too close to the image */
+}
+
+/* hooks.css */
+
+/* .hidden {
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-category {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Maps.css */
+.google-map {
+  animation: fadeIn 1s ease-out;
+}
+
+/* aboutus.css */
+.aboutus-container {
+  background-color: #161616;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 3%;
+  animation: fadeIn 1s ease-out;
+  padding: 2%;
+  margin-bottom: 4%;
+}
+.aboutus-heading2 {
+  color: #eeba2c;
+}
+.aboutus-heading1 {
+  color: yellow;
+  animation: fadeIn 1s ease-out;
+}
+.aboutus-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #e2e2e2;
+}
+
+/* ContactUs.css */
+.contactus-heading {
+  animation: fadeIn 1s ease-out;
+  color: yellow;
+}
+.contactus-container {
+  animation: fadeIn 1s ease-out;
+  background-color: #161616;
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 3%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4%;
+}
+
+.contactus-container h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.contact-details {
+  margin-bottom: 20px;
+}
+
+.contact-details h2 {
+  color: #eeba2c;
+}
+
+.contact-details p {
+  color: white;
+  line-height: 1.6;
+}
+
+.contact-details a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  color: white;
 }

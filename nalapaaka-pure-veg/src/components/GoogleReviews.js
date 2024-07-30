@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 const GoogleReviews = ({ placeId }) => {
   const [reviews, setReviews] = useState([]);
@@ -14,21 +14,20 @@ const GoogleReviews = ({ placeId }) => {
             params: {
               place_id: placeId,
               key: "AIzaSyCCquOiELyhfclO0OnN2lMi2pNtZvh2ito",
-              fields: 'reviews'
-            }
+              fields: "reviews",
+            },
           }
         );
-        console.log('Google Reviews API Response:', response.data);
+        console.log("Google Reviews API Response:", response.data);
         setReviews(response.data.result.reviews);
       } catch (err) {
-        console.error('Google Reviews API Error:', err);
+        console.error("Google Reviews API Error:", err);
         setError(err.message);
       }
     };
-  
+
     fetchReviews();
   }, [placeId]);
-  
 
   if (error) {
     return <div>Error: {error}</div>;
@@ -36,7 +35,9 @@ const GoogleReviews = ({ placeId }) => {
 
   return (
     <div className="reviews-container">
-      <h2 className='review-heading'>Google Reviews</h2>
+      <h2 className="review-heading" style={{ fontSize: 25 }}>
+        Google Reviews
+      </h2>
       <div className="reviews-list">
         {reviews.map((review, index) => (
           <div className="review" key={index}>
@@ -49,6 +50,5 @@ const GoogleReviews = ({ placeId }) => {
     </div>
   );
 };
-
 
 export default GoogleReviews;

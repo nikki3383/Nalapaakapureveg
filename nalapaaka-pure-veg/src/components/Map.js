@@ -33,6 +33,7 @@ const GoogleMap = ({ placeId }) => {
 
   return (
     <div
+      className="google-map"
       ref={mapRef}
       style={{ width: "100%", height: "400px", marginTop: "20px" }}
     ></div>
