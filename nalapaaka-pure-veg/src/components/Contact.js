@@ -13,8 +13,8 @@ const ContactUs = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              #30/6, 150A Highway, Heggere, Sanikere Post <br></br>Chitradurga,
-              Bengaluru-577522
+              #30/6, 150A Highway, Heggere, Sanikere Post <br></br>
+              Chitradurga-577522
             </a>
           </p>
 
