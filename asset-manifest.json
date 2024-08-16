@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.ec3b24e1.css",
-    "main.js": "/static/js/main.b32f1617.js",
+    "main.js": "/static/js/main.7e463b0b.js",
     "static/media/spices-tomatoes-near-spaghetti-garlic.jpg": "/static/media/spices-tomatoes-near-spaghetti-garlic.b769d68b2695108285e9.jpg",
-    "static/media/Starters-menu.jpg": "/static/media/Starters-menu.35b2f0185377ae2f4bcd.jpg",
-    "static/media/Rice-menu.jpg": "/static/media/Rice-menu.cf3d6ade782c3423db8f.jpg",
-    "static/media/Curries-menu.jpg": "/static/media/Curries-menu.c7f7a6a2dd1f2bbf56a1.jpg",
-    "static/media/lassi-buttermil-menu.jpg": "/static/media/lassi-buttermil-menu.40895bbc68370a23f7c6.jpg",
+    "static/media/Rice-menu.jpg": "/static/media/Rice-menu.9bc2500e2ea35e3f48d9.jpg",
+    "static/media/Starters-menu.jpg": "/static/media/Starters-menu.eadb1487dc1c6af2036a.jpg",
+    "static/media/Curries-menu.jpg": "/static/media/Curries-menu.f48feccd25bf0e2b3c62.jpg",
+    "static/media/lassi-buttermil-menu.jpg": "/static/media/lassi-buttermil-menu.2eed2aa56fd518ddf21d.jpg",
     "static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.png": "/static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.467d32b7d6b7903a01a7.png",
-    "static/media/Coldbeverages-menu.jpg": "/static/media/Coldbeverages-menu.94d2154497d95bbbac2d.jpg",
-    "static/media/Roti-menu.jpg": "/static/media/Roti-menu.0db3bf70a28685fbc21e.jpg",
-    "static/media/Noodles-menu.jpg": "/static/media/Noodles-menu.6e885a4d3ed4ad1af436.jpg",
+    "static/media/Coldbeverages-menu.jpg": "/static/media/Coldbeverages-menu.cff79701618cb9885c1c.jpg",
+    "static/media/Roti-menu.jpg": "/static/media/Roti-menu.8cf8e3e9327806862d00.jpg",
+    "static/media/Noodles-menu.jpg": "/static/media/Noodles-menu.ac14140dc1177e0574f3.jpg",
     "static/media/pngtree-black-vegetable-line-background-image_508366.jpg": "/static/media/pngtree-black-vegetable-line-background-image_508366.f565653c00cc4b7ac95e.jpg",
     "index.html": "/index.html",
     "main.ec3b24e1.css.map": "/static/css/main.ec3b24e1.css.map",
-    "main.b32f1617.js.map": "/static/js/main.b32f1617.js.map"
+    "main.7e463b0b.js.map": "/static/js/main.7e463b0b.js.map"
   },
   "entrypoints": [
     "static/css/main.ec3b24e1.css",
-    "static/js/main.b32f1617.js"
+    "static/js/main.7e463b0b.js"
   ]
 }
