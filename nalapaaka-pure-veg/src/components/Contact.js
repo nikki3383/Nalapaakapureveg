@@ -31,13 +31,13 @@ const ContactUs = () => {
           </p>
 
           <h2>Hours of Operation</h2>
-          <p>Monday - 11:30AM -11:00PM</p>
-          <p>Tuesday - 11:30AM -11:00PM</p>
-          <p>Wednesday - 11:30AM -11:00PM</p>
-          <p>Thursday - 11:30AM -11:00PM</p>
-          <p>Friday- 11:30AM -11:00PM</p>
-          <p>Saturday - 11:30AM -11:00PM</p>
-          <p>Sunday - 11:30AM -11:00PM</p>
+          <p>Monday - 11:00AM -11:00PM</p>
+          <p>Tuesday - 11:00AM -11:00PM</p>
+          <p>Wednesday - 11:00AM -11:00PM</p>
+          <p>Thursday - 11:00AM -11:00PM</p>
+          <p>Friday- 11:00AM -11:00PM</p>
+          <p>Saturday - 11:00AM -11:00PM</p>
+          <p>Sunday - 11:00AM -11:00PM</p>
         </div>
       </div>
     </div>

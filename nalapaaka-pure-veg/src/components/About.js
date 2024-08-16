@@ -48,7 +48,14 @@ const About = () => (
         fresh rotis and indulgent desserts, our dishes are designed to tantalize
         your taste buds and satisfy your cravings. We also offer a variety of
         beverages, including refreshing cold drinks and soothing hot beverages,
-        to complement your meal.
+        to complement your meal.{" "}
+        <p>
+          We take pride in our commitment to quality and authenticity. That's
+          why we do not use any tasting powders or artificial colors in our
+          dishes. We also ensure that only the finest ingredients are used,
+          including premium NANDINI DAIRY products, to bring you the freshest
+          and most wholesome flavors.
+        </p>
       </p>
       <h2 className="aboutus-heading2">Sustainability</h2>
       <p className="aboutus-content">
