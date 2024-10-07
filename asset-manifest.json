@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec3b24e1.css",
-    "main.js": "/static/js/main.7e463b0b.js",
+    "main.js": "/static/js/main.fef38b21.js",
     "static/media/spices-tomatoes-near-spaghetti-garlic.jpg": "/static/media/spices-tomatoes-near-spaghetti-garlic.b769d68b2695108285e9.jpg",
     "static/media/Rice-menu.jpg": "/static/media/Rice-menu.9bc2500e2ea35e3f48d9.jpg",
     "static/media/Starters-menu.jpg": "/static/media/Starters-menu.eadb1487dc1c6af2036a.jpg",
@@ -14,10 +14,10 @@
     "static/media/pngtree-black-vegetable-line-background-image_508366.jpg": "/static/media/pngtree-black-vegetable-line-background-image_508366.f565653c00cc4b7ac95e.jpg",
     "index.html": "/index.html",
     "main.ec3b24e1.css.map": "/static/css/main.ec3b24e1.css.map",
-    "main.7e463b0b.js.map": "/static/js/main.7e463b0b.js.map"
+    "main.fef38b21.js.map": "/static/js/main.fef38b21.js.map"
   },
   "entrypoints": [
     "static/css/main.ec3b24e1.css",
-    "static/js/main.7e463b0b.js"
+    "static/js/main.fef38b21.js"
   ]
 }
