@@ -1,56 +1,30 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+import "../styles/Styles.css";
 
-const GoogleReviews = ({ placeId }) => {
-  const [reviews, setReviews] = useState([]);
-  const [error, setError] = useState(null);
-
+const GoogleReviews = () => {
   useEffect(() => {
-    const fetchReviews = () => {
-      if (!window.google) {
-        console.error("Google Maps JavaScript API not loaded.");
-        return;
-      }
+    // Load the Elfsight script dynamically
+    const script = document.createElement("script");
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
 
-      const map = new window.google.maps.Map(document.createElement("div"));
-      const request = {
-        placeId: placeId,
-        fields: ["reviews"],
-      };
-
-      const service = new window.google.maps.places.PlacesService(map);
-      service.getDetails(request, (place, status) => {
-        if (
-          status === window.google.maps.places.PlacesServiceStatus.OK &&
-          place.reviews
-        ) {
-          setReviews(place.reviews);
-        } else {
-          console.error("Error fetching reviews:", status);
-          setError("Error fetching reviews");
-        }
-      });
+    // Cleanup the script on component unmount
+    return () => {
+      document.body.removeChild(script);
     };
-
-    fetchReviews();
-  }, [placeId]);
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
+  }, []);
 
   return (
-    <div className="reviews-container">
-      <h2 className="review-heading" style={{ fontSize: 25 }}>
-        Google Reviews
-      </h2>
-      <div className="reviews-list">
-        {reviews.map((review, index) => (
-          <div className="review" key={index}>
-            <p>Author: {review.author_name}</p>
-            <p>Rating: {review.rating}</p>
-            <p>Comment: {review.text}</p>
-          </div>
-        ))}
+    <div className="review-container">
+      <div>
+        <h2 className="review-heading" style={{ fontSize: 25 }}>
+          Google Reviews
+        </h2>
+        <div
+          className="elfsight-app-2e277bf3-f898-42c4-8652-bf98f81a80c8"
+          data-elfsight-app-lazy
+        ></div>
       </div>
     </div>
   );
