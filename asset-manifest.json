@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec3b24e1.css",
-    "main.js": "/static/js/main.fef38b21.js",
-    "static/media/spices-tomatoes-near-spaghetti-garlic.jpg": "/static/media/spices-tomatoes-near-spaghetti-garlic.b769d68b2695108285e9.jpg",
+    "main.css": "/static/css/main.6fcf4608.css",
+    "main.js": "/static/js/main.8d3f11ad.js",
     "static/media/Rice-menu.jpg": "/static/media/Rice-menu.9bc2500e2ea35e3f48d9.jpg",
     "static/media/Starters-menu.jpg": "/static/media/Starters-menu.eadb1487dc1c6af2036a.jpg",
     "static/media/Curries-menu.jpg": "/static/media/Curries-menu.f48feccd25bf0e2b3c62.jpg",
+    "static/media/spices-tomatoes-near-spaghetti-garlic.jpg": "/static/media/spices-tomatoes-near-spaghetti-garlic.e81b37f6b500741fc924.jpg",
     "static/media/lassi-buttermil-menu.jpg": "/static/media/lassi-buttermil-menu.2eed2aa56fd518ddf21d.jpg",
-    "static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.png": "/static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.467d32b7d6b7903a01a7.png",
     "static/media/Coldbeverages-menu.jpg": "/static/media/Coldbeverages-menu.cff79701618cb9885c1c.jpg",
     "static/media/Roti-menu.jpg": "/static/media/Roti-menu.8cf8e3e9327806862d00.jpg",
     "static/media/Noodles-menu.jpg": "/static/media/Noodles-menu.ac14140dc1177e0574f3.jpg",
-    "static/media/pngtree-black-vegetable-line-background-image_508366.jpg": "/static/media/pngtree-black-vegetable-line-background-image_508366.f565653c00cc4b7ac95e.jpg",
+    "static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.png": "/static/media/dark-background-abstract-background-network-3d-background-3840x2160-8324.9c1087cdc1c542f14fd4.png",
+    "static/media/pngtree-black-vegetable-line-background-image_508366.jpg": "/static/media/pngtree-black-vegetable-line-background-image_508366.03da8fc43d596eb2f0ab.jpg",
     "index.html": "/index.html",
-    "main.ec3b24e1.css.map": "/static/css/main.ec3b24e1.css.map",
-    "main.fef38b21.js.map": "/static/js/main.fef38b21.js.map"
+    "main.6fcf4608.css.map": "/static/css/main.6fcf4608.css.map",
+    "main.8d3f11ad.js.map": "/static/js/main.8d3f11ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec3b24e1.css",
-    "static/js/main.fef38b21.js"
+    "static/css/main.6fcf4608.css",
+    "static/js/main.8d3f11ad.js"
   ]
 }
